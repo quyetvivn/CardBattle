@@ -1,0 +1,36 @@
+{
+  "name": "card-battle",
+  "version": "0.0.1",
+  "description": "Card battle game fundamental parts only",
+  "main": "app.ts",
+  "dependencies": {
+    "@types/pixi.js": "^4.3.1",
+    "@types/reflect-metadata": "0.0.5",
+    "reflect-metadata": "^0.1.9",
+    "robotlegs": "^1.0.0-alpha.12",
+    "robotlegs-pixi": "^1.0.0-alpha.13",
+    "typescript": "^2.1.4"
+  },
+  "devDependencies": {
+    "@types/chai": "^3.4.34",
+    "@types/node": "^6.0.55",
+    "karma": "^1.3.0",
+    "karma-chrome-launcher": "^2.0.0",
+    "ts-loader": "^1.3.3",
+    "webpack": "^1.14.0"
+  },
+  "scripts": {
+    "pretest": "node_modules/.bin/webpack",
+    "test": "node_modules/.bin/karma start --browsers ChromiumWithData"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/quyetvivn/CardBattle.git"
+  },
+  "author": "QuyetDX",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/quyetvivn/CardBattle/issues"
+  },
+  "homepage": "https://github.com/quyetvivn/CardBattle#readme"
+}
