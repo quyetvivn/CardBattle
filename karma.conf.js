@@ -55,14 +55,7 @@ module.exports = function(config) {
 
     // start these browsers
     // available browser launchers: https://npmjs.org/browse/keyword/karma-launcher
-    browsers: ['Chromium', 'ChromiumWithData'],
-
-    customLaunchers: {
-      ChromiumWithData: {
-        base: 'Chromium',
-        chromeDataDir: __dirname + '/.chromium'
-      }
-    },
+    browsers: ['Chromium'],
 
 
     // Continuous Integration mode
