@@ -41,5 +41,7 @@ jspm_packages
 bundle.js
 index.html
 .vscode
-.map
-.kra
+*.map
+*.kra
+*.kra~
+*.png~
