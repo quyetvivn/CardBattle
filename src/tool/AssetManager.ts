@@ -1,5 +1,5 @@
 import { FileNotFound } from './../dev/CustomError';
-import * as Asset from '../const/Asset';
+import {Asset} from '../const/Asset';
 
 export function getAsset(view: string, file: string): string {
     let path = Asset.Path;
