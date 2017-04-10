@@ -11,15 +11,15 @@ module.exports = {
         extensions: ['', '.ts', '.js']
     },
     module: {
-        preLoaders: [
-            {
-                test: /\.js$/,
-                include: [
-                    path.resolve(__dirname, 'src')
-                ],
-                loader: 'source-map-loader'
-            }
-        ],
+        // preLoaders: [
+        //     {
+        //         test: /\.js$/,
+        //         include: [
+        //             path.resolve(__dirname, 'src')
+        //         ],
+        //         loader: 'source-map-loader'
+        //     }
+        // ],
         loaders: [
             {
                 test: /\.ts$/,
@@ -40,8 +40,8 @@ module.exports = {
     },
     devtool: '#source-map',
     plugins: [
-        new HtmlWebpackPlugin({
-            title: 'Card Battle'
-        })
+        // new HtmlWebpackPlugin({
+        //     title: 'Card Battle'
+        // })
     ]
 }
