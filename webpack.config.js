@@ -39,9 +39,19 @@ module.exports = {
         ]
     },
     devtool: '#source-map',
+    devServer: {
+        /**
+         * @link: https://webpack.js.org/configuration/stats
+         */
+        stats: {
+            colors: true
+            , chunks: false
+            , hash: false
+        }
+    },
     plugins: [
-        // new HtmlWebpackPlugin({
-        //     title: 'Card Battle'
-        // })
+        new HtmlWebpackPlugin({
+            title: 'Card Battle'
+        })
     ]
 }
