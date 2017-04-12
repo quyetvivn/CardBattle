@@ -1,10 +1,8 @@
-export namespace Asset {
-    export const Path = 'asset';
+export const Path = 'asset';
 
-    export class Start {
-        static readonly Path = 'start';
+export class Start {
+    static readonly Path = 'start';
 
-        static readonly Background = 'Background.png';
-        static readonly Button = 'Button.png';
-    }
+    static readonly Background = 'Background.png';
+    static readonly Button = 'Button.png';
 }
