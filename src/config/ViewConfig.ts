@@ -1,5 +1,5 @@
 import {IMediatorMap} from "robotlegs-pixi";
-import {IConfig, injectable, inject} from "robotlegs";
+import {IConfig, inject, injectable} from "robotlegs";
 import {StartView} from "../view/StartView";
 import {StartMediator} from "../mediator/StartMediator";
 @injectable()
