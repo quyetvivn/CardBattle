@@ -11,15 +11,6 @@ module.exports = {
         extensions: ['', '.ts', '.js']
     },
     module: {
-        // preLoaders: [
-        //     {
-        //         test: /\.js$/,
-        //         include: [
-        //             path.resolve(__dirname, 'src')
-        //         ],
-        //         loader: 'source-map-loader'
-        //     }
-        // ],
         loaders: [
             {
                 test: /\.ts$/,

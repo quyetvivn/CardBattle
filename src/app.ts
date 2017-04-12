@@ -10,8 +10,8 @@ import {ViewConfig} from "./config/ViewConfig";
 let renderer = PIXI.autoDetectRenderer(App.Width, App.Height, {});
 let stage = new StartView();
 let context = new Context().install(MVCSBundle, PixiBundle)
-    .configure(ViewConfig)
     .configure(new ContextView((<any>renderer).plugins.interaction))
+    .configure(ViewConfig)
     .initialize();
 
 document.body.appendChild(renderer.view);
