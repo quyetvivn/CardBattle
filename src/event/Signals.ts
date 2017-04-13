@@ -1,9 +1,5 @@
-import {injectable} from "robotlegs";
-import {Signal, OnceSignal} from "signals.js";
-import {decorate} from "inversify";
-// must decorate & parent class with injectable before decorate derived class
-decorate(injectable(), Signal);
-decorate(injectable(), OnceSignal);
+import {Signal} from "signals.js";
+import {injectable} from "inversify";
 
 @injectable()
 export class StrangeSignal extends Signal {

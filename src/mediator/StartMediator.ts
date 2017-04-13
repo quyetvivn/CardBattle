@@ -1,6 +1,6 @@
 import {StartView} from "../view/StartView";
 import {SignalMediator} from "robotlegs-signalmediator";
-import {inject} from "robotlegs";
+import {inject} from "inversify";
 import {StrangeSignal} from "../event/Signals";
 import {CustomEvent} from "../event/Events";
 

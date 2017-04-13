@@ -1,4 +1,5 @@
-import {IConfig, IInjector, inject, injectable} from "robotlegs";
+import {inject, injectable} from "inversify";
+import {IConfig, IInjector} from "robotlegs";
 import {StrangeSignal} from "../event/Signals";
 @injectable()
 export class SignalConfig implements IConfig {

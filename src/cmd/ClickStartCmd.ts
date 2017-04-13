@@ -1,4 +1,5 @@
-import {inject, injectable, ICommand} from "robotlegs";
+import {inject, injectable} from "inversify";
+import {ICommand} from "robotlegs";
 import {CustomEvent} from "../event/Events";
 @injectable()
 export class ClickStartCmd implements ICommand {

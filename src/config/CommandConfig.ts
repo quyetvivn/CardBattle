@@ -1,4 +1,5 @@
-import {inject, injectable, IConfig, IEventCommandMap} from "robotlegs";
+import {inject, injectable} from "inversify";
+import {IConfig, IEventCommandMap} from "robotlegs";
 import {ISignalCommandMap} from "robotlegs-signalcommandmap";
 import {StrangeSignal} from "../event/Signals";
 import {StrangeCmd} from "../cmd/StrangeCommand";

@@ -4,7 +4,7 @@
   "description": "Card battle game fundamental parts only",
   "main": "app.ts",
   "dependencies": {
-    "inversify": "^3.3.0",
+    "inversify": "^2.0.1",
     "reflect-metadata": "0.1.8",
     "robotlegs": "^1.0.0-alpha.14",
     "robotlegs-pixi": "^1.0.0-alpha.15",

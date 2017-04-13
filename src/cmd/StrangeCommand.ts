@@ -1,4 +1,5 @@
-import {ICommand, injectable} from "robotlegs";
+import {injectable} from "inversify";
+import {ICommand} from "robotlegs";
 @injectable()
 export class StrangeCmd implements ICommand {
     execute() {
